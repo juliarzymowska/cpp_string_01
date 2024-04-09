@@ -1,4 +1,3 @@
-initials = RL
 execs = string_01
 tests = tests_string
 
