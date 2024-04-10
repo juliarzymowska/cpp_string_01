@@ -10,7 +10,7 @@ clean:
 test: $(execs) $(tests)
 	@$(foreach test, $(tests), echo "RUNNING: $(test)" && ./$(test))
 
-checks:
+check:
 	cppcheck --inline-suppr --enable=all --inconclusive --library=posix --suppress=missingIncludeSystem .
 
 % : %.cc
